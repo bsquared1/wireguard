@@ -1,0 +1,17 @@
+server:
+  host: MYDOMAIN.duckdns.org
+  addresses:
+    - 10.10.1.41
+  dns:
+    - 10.10.1.1
+    - 8.8.8.8
+peers:
+  - name: MYPHONE
+    addresses:
+      - 10.10.1.20
+    allowed_ips: []
+    client_allowed_ips:
+      - 10.10.3.0/24
+      - 10.10.1.0/24
+
+
